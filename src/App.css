@@ -23,13 +23,15 @@ body {
   padding-left: 100px;
   padding-right: 100px;
   font-family: 'Roboto';
+  width: 100%;
+  flex: wrap;
 }
 .app-logo {
   width: 150px;
   height: 45px;
   margin-bottom: 30px;
 }
-.sub-div1 {
+.sub-div-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -45,13 +47,16 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 20px;
+  padding: 10px;
   height: auto;
   background-color: #454f84;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #454f84;
-  /* margin-left: 45px;
-  margin-top: 2px; */
+  flex: wrap;
+  width: 100%;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 120px;
 }
 .detail-heading {
   font-size: 16px;
@@ -63,7 +68,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #c3caea;
-  width: 100%;
+  width: 200px;
   height: 35px;
   border-radius: 2px;
   margin-bottom: 20px;
@@ -102,11 +107,12 @@ body {
 .sub-div1-image1 {
   width: 25%;
   height: 100%;
+  margin-right: 40px;
 }
 .sun-div1-image2 {
   display: none;
 }
-.sub-div2 {
+.sub-div-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,7 +120,7 @@ body {
   width: 100%;
   min-height: 50vh;
   max-height: 100%;
-  background-color: #454f84;
+  background-color: #5763a5;
   padding: 20px;
   border-radius: 5px;
   height: 100vh;
@@ -135,6 +141,7 @@ body {
   color: #f8fafc;
   font-size: 16px;
   margin-right: 5px;
+  padding: 5px;
 }
 .colored-text {
   border-style: solid;
@@ -145,30 +152,38 @@ body {
   text-align: center;
   color: #ffffff;
   font-size: 10px;
+  margin-left: 20px;
+  padding: 5px;
 }
 .search-holder {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   background-color: #c3caea;
-  width: 18px;
-  height: 22px;
+  /* width: 100%; */
+  height: 32px;
   border-radius: 2px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 780px;
+}
+.input-element {
+  width: 700px;
 }
 hr {
-  background-color: #9ba9eb;
-  border-style: none;
-  height: 1px;
-  width: 100px;
+  /* background-color: #9ba9eb; */
+  border-style: solid;
+  height: 2px;
+  width: 100%;
+  color: #9ba9eb;
 }
-.show-password {
+.show-passwords {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  align-self: flex-end;
+  margin-left: 900px;
 }
 .check-box {
   width: 15px;
@@ -179,14 +194,15 @@ hr {
 }
 .label-password {
   color: #9ba9eb;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: 'Roboto';
 }
 
 .empty-state {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-self: center;
 }
 .empty-image {
   width: 220px;
@@ -196,6 +212,7 @@ hr {
 .no-passwords {
   color: #94a3b8;
   font-size: 14px;
+  text-align: center;
 }
 
 .result-container {
@@ -217,7 +234,7 @@ hr {
   border-style: solid;
   border-color: #9ba9eb;
   border-width: 1px;
-  border-radius: 2px;
+  border-radius: 12px;
   padding: 18px;
   margin-right: 18px;
   margin-bottom: 18px;
@@ -246,9 +263,11 @@ hr {
 }
 .stars-image {
   width: 80px;
-  height: 10px;
+  height: 50px;
   margin-top: 8px;
   margin-left: 2px;
+  /* list password background color  */
+  /* background-color: red;       */
 }
 .del-btn {
   width: 20px;

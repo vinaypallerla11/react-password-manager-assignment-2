@@ -1,6 +1,3 @@
-// import './App.css'
-// const App = () => <div>Hello World</div>
-// export default App
 import {Component} from 'react'
 import {v4 as uuidv4} from 'uuid'
 import './App.css'
@@ -96,12 +93,7 @@ class App extends Component {
           className="app-logo"
           alt="app logo"
         />
-        <div className="sub-div1">
-          {/* <img
-            src="https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png"
-            className="sub-div1-image2"
-            alt="password manager"
-          /> */}
+        <div className="sub-div-1">
           <form className="add-details" onSubmit={this.addContent}>
             <h1 className="detail-heading">Add New Password</h1>
             <div className="input-holder">
